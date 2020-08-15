@@ -1,19 +1,20 @@
 import { NgModule } from '@angular/core';
-import { SideProjectsComponent } from './side-projects.component';
+import { KnowHowComponent } from './know-how.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
     declarations: [
-        SideProjectsComponent
+        KnowHowComponent
     ],
     imports: [
         RouterModule.forChild([
             {
                 path: '',
-                component: SideProjectsComponent
+                component: KnowHowComponent
             }
         ])
     ],
+    providers: [],
 
 })
-export class SideProjectsModule { }
+export class KnowHowModule { }

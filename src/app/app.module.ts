@@ -8,8 +8,7 @@ import { KnowHowComponent } from './pages/know-how/know-how.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    KnowHowComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
