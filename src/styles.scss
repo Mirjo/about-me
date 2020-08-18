@@ -14,28 +14,71 @@
     --cream: hsla(60, 83%, 89%, 1);
     --celadon: hsla(115, 35%, 78%, 1);
     --eton-blue: hsla(147, 32%, 62%, 1);
+
+
+    --primary: #ff9626;
+    --primary-rgb: 255, 150, 38;
+    --primary-contrast: #000000;
+    --primary-contrast-rgb: 0, 0, 0;
+    --primary-shade: #e08421;
+    --primary-tint: #ffa13c;
+
+    --secondary: #f2e079;
+    --secondary-rgb: 242, 224, 121;
+    --secondary-contrast: #000000;
+    --secondary-contrast-rgb: 0, 0, 0;
+    --secondary-shade: #d5c56a;
+    --secondary-tint: #f3e386;
+
+    --tertiary: #b7dbb4;
+    --tertiary-rgb: 183, 219, 180;
+    --tertiary-contrast: #000000;
+    --tertiary-contrast-rgb: 0, 0, 0;
+    --tertiary-shade: #a1c19e;
+    --tertiary-tint: #bedfbc;
+
+    --success: #7ebd9a;
+    --success-rgb: 126, 189, 154;
+    --success-contrast: #000000;
+    --success-contrast-rgb: 0, 0, 0;
+    --success-shade: #6fa688;
+    --success-tint: #8bc4a4;
+
+    --warning: #ffc409;
+    --warning-rgb: 255, 196, 9;
+    --warning-contrast: #000000;
+    --warning-contrast-rgb: 0, 0, 0;
+    --warning-shade: #e0ac08;
+    --warning-tint: #ffca22;
+
+    --danger: #eb445a;
+    --danger-rgb: 235, 68, 90;
+    --danger-contrast: #ffffff;
+    --danger-contrast-rgb: 255, 255, 255;
+    --danger-shade: #cf3c4f;
+    --danger-tint: #ed576b;
+
+    --dark: #222428;
+    --dark-rgb: 34, 36, 40;
+    --dark-contrast: #ffffff;
+    --dark-contrast-rgb: 255, 255, 255;
+    --dark-shade: #1e2023;
+    --dark-tint: #383a3e;
+
+    --medium: #92949c;
+    --medium-rgb: 146, 148, 156;
+    --medium-contrast: #ffffff;
+    --medium-contrast-rgb: 255, 255, 255;
+    --medium-shade: #808289;
+    --medium-tint: #9d9fa6;
+
+    --light: #f4f5f8;
+    --light-rgb: 244, 245, 248;
+    --light-contrast: #000000;
+    --light-contrast-rgb: 0, 0, 0;
+    --light-shade: #d7d8da;
+    --light-tint: #f5f6f9;
 }
-
-/* SCSS HEX */
-$deep-saffron: #ff9626ff;
-$buff: #f2e079ff;
-$cream: #fafacaff;
-$celadon: #b7dbb4ff;
-$eton-blue: #7ebd9aff;
-
-/* SCSS HSL */
-$deep-saffron: hsla(31, 100%, 57%, 1);
-$buff: hsla(51, 82%, 71%, 1);
-$cream: hsla(60, 83%, 89%, 1);
-$celadon: hsla(115, 35%, 78%, 1);
-$eton-blue: hsla(147, 32%, 62%, 1);
-
-/* SCSS RGB */
-$deep-saffron: rgba(255, 150, 38, 1);
-$buff: rgba(242, 224, 121, 1);
-$cream: rgba(250, 250, 202, 1);
-$celadon: rgba(183, 219, 180, 1);
-$eton-blue: rgba(126, 189, 154, 1);
 
 /* SCSS Gradient */
 $gradient-top: linear-gradient(0deg, #ff9626ff, #f2e079ff, #fafacaff, #b7dbb4ff, #7ebd9aff);
