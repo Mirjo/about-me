@@ -1,9 +1,7 @@
 import { CertificateModel } from 'src/app/core/data/models/certificate.model';
 import { AbstractCertificatesDataSource } from './abstract.certificates.data.source';
-import { Injectable } from '@angular/core';
 
-@Injectable()
-export class LocalCertificatesDataSource extends AbstractCertificatesDataSource {
+export class MockCertificatesDataSource extends AbstractCertificatesDataSource {
 
     getCertificates(): Promise<CertificateModel[]> {
         return Promise.resolve([
