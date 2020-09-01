@@ -6,6 +6,7 @@ export class CertificateEntity extends AbstractEntity {
     dateOfIssue: Date;
     miniIcon: string;
     organization: string;
+    certificateId: string;
 
     constructor(obj: Partial<CertificateEntity>) {
         super(obj);
@@ -13,6 +14,7 @@ export class CertificateEntity extends AbstractEntity {
         this.dateOfIssue = obj.dateOfIssue;
         this.miniIcon = obj.miniIcon;
         this.organization = obj.organization;
+        this.certificateId = obj.certificateId;
 
     }
 
