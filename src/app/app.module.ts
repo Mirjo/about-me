@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgxsModule } from '@ngxs/store';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './pages/home/home.component';
-import { KnowHowComponent } from './pages/know-how/know-how.component';
 
 
 @NgModule({
@@ -12,7 +11,8 @@ import { KnowHowComponent } from './pages/know-how/know-how.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxsModule.forRoot([])
   ],
   providers: [],
   bootstrap: [AppComponent]
